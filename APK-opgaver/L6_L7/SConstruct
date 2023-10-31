@@ -1,5 +1,0 @@
-env = Environment()
-env.Append(CPPPATH=['/opt/local/include', '/usr/include'])
-env['CXXFLAGS'] = '-std=c++11'
-
-env.Program('async_algo', ["async_algo.cpp"])
